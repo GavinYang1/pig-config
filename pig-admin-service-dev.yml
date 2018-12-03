@@ -15,10 +15,6 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://127.0.0.1/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&autoReconnect=true
- redis:
-    host:172.28.250.240
-    port:27022
-    
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
