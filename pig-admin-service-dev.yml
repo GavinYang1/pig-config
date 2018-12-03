@@ -5,6 +5,12 @@ server:
 redis:
   cache:
     expiration: 3600
+    # REDIS (RedisProperties)
+# Redis数据库索引（默认为0）
+spring:
+  redis:
+    host:172.28.250.240
+    port:27022
     
 # datasoure默认使用JDBC
 spring:
